@@ -8,4 +8,90 @@
 Rivaldobaka/Rivaldobaka is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->cmd.spy
-
+$ pkg update && pkg upgrade
+Testing the available mirrors:
+[*] https://dl.bintray.com/termux/termux-packages-24: bad
+[*] https://grimler.se/termux-packages-24: ok
+[*] https://main.termux-mirror.ml: bad
+[*] https://termux.mentality.rip/termux-packages-24: ok
+Picking mirror: https://grimler.se/termux-packages-24
+Get:1 https://grimler.se/termux-packages-24 stable InRelease [16.8 kB]
+Ign:2 https://dl.bintray.com/grimler/game-packages-24 games InRelease
+Ign:3 https://dl.bintray.com/grimler/science-packages-24 science InRelease
+Err:4 https://dl.bintray.com/grimler/game-packages-24 games Release
+  502  Bad Gateway
+Err:5 https://dl.bintray.com/grimler/science-packages-24 science Release
+  502  Bad Gateway
+Err:1 https://grimler.se/termux-packages-24 stable InRelease
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY B0076E490B71616B
+Reading package lists... Done
+E: The repository 'https://dl.bintray.com/grimler/game-packages-24 games Release' does not have a Release file.
+N: Metadata integrity can't be verified, repository is disabled now.
+N: Possible cause: repository is under maintenance or down (wrong sources.list URL?).
+E: The repository 'https://dl.bintray.com/grimler/science-packages-24 science Release' does not have a Release file.
+N: Metadata integrity can't be verified, repository is disabled now.
+N: Possible cause: repository is under maintenance or down (wrong sources.list URL?).
+W: GPG error: https://grimler.se/termux-packages-24 stable InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY B0076E490B71616B
+E: The repository 'https://grimler.se/termux-packages-24 stable InRelease' is not signed.
+N: Metadata integrity can't be verified, repository is disabled now.
+N: Possible cause: repository is under maintenance or down (wrong sources.list URL?).
+$ pkg install git
+Checking availability of current mirror: ok
+Reading package lists... Done
+Building dependency tree... Done
+E: Unable to locate package git
+$ pip2 install mechanize
+No command pip2 found, did you mean:
+ Command pico in package alpine
+ Command bzip2 in package bzip2
+ Command vipe in package moreutils
+ Command pick in package nmh from the unstable-repo repository
+ Command par2 in package par2
+ Command php in package php
+ Command pick in package pick
+ Command pil in package picolisp
+ Command pigz in package pigz
+ Command pup in package pup
+ Command spipe in package spiped
+ Command ip in package termux-tools
+ Command zip in package zip
+$ pkg install python2
+Checking availability of current mirror: ok
+Reading package lists... Done
+Building dependency tree... Done
+E: Unable to locate package python2
+$ pip2 install request
+No command pip2 found, did you mean:
+ Command pico in package alpine
+ Command bzip2 in package bzip2
+ Command vipe in package moreutils
+ Command pick in package nmh from the unstable-repo repository
+ Command par2 in package par2
+ Command php in package php
+ Command pick in package pick
+ Command pil in package picolisp
+ Command pigz in package pigz
+ Command pup in package pup
+ Command spipe in package spiped
+ Command ip in package termux-tools
+ Command zip in package zip
+$ python2 crack.py
+The program python2 is not installed. Install it by executing:
+ pkg install python2
+$ git clone https://github.com/FR13ND8/Fb-Cracker-v.3
+The program git is not installed. Install it by executing:
+ pkg install git
+$ cd Fb-Cracker-v.3
+bash: cd: Fb-Cracker-v.3: No such file or directory
+$ ttps://github.com/FR13ND8/Fb-Cracker-v.3/blob/master/README.md#fb-cracker-v3
+bash: ttps://github.com/FR13ND8/Fb-Cracker-v.3/blob/master/README.md#fb-cracker-v3: No such file or directory
+$
+$ python2 crack.py                                                     The program python2 is not installed. Install it by executing:
+ pkg install python2
+$ ttps://github.com/FR13ND8/Fb-Cracker-v.3/blob/master/README.md#fb-cracker-v3
+bash: ttps://github.com/FR13ND8/Fb-Cracker-v.3/blob/master/README.md#fb-cracker-v3: No such file or directory
+$ git clone https://github.com/FR13ND8/Fb-Cracker-v.3
+The program git is not installed. Install it by executing:
+ pkg install git
+$ cd Fb-Cracker-v.3
+bash: cd: Fb-Cracker-v.3: No such file or directory
